@@ -82,7 +82,7 @@ p->pos_enne_affiche.w=p->pers[0]->w;
 void initImage(perso *p)
 {
 p->etat=0;
-p->url="game.jpg";
+p->url="/home/youssef/Desktop/Treasure-of-the-ancients/PERSO/image/menu/game.jpg";
 p->pers[0]=IMG_Load(p->url);
 
 if(p->pers==NULL){
