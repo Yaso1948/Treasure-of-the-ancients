@@ -1,0 +1,9 @@
+prog:menu.o main.o InGame.o
+	gcc menu.o main.o InGame.o -o prog -lSDL -lSDL_ttf -g -lSDL_image -lSDL_mixer
+main.o:main.c
+	gcc -c main.c -g
+menu.o:menu.c
+	gcc -c menu.c -g
+InGame.o:InGame.c
+	gcc -c InGame.c -g
+
